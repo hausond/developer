@@ -1,0 +1,10 @@
+{% extends "generic.html" %}
+{% block main %}
+<form action = "" method = "post">
+    {% for login in login %} 
+    <input type = "login" login = "login_{{login.id}}" value = "">
+    <input type = "password" password = "login_{{login.id}}" value = "">
+    {% endfor %}
+    <input type="submit" value = "Send">
+</form>
+{% endblock %}
