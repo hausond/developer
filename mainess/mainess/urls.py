@@ -8,4 +8,5 @@ urlpatterns = [
     path('categories/', all_categories, name='all_categories'),
     path('quotes/', all_quotes, name='all_quotes'),
     path('all-data/', all_data, name='all_data'),
+    path('add-quote/', add_new_quote, name='add_new_quote'),
 ]
